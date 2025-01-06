@@ -3,9 +3,16 @@
 
 This project is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
-## Demo Video
+## Video
 
-[![Watch the video](./images/favicon.png)](youtube link)
+## Paper Prototype
+[Watch Paper Prototype (Wizard of Oz) ](https://youtu.be/6KTxVv46w7E)
+
+## High Fiedelity Prototype
+[Watch High Fiedelity Prototype (Wizard of Oz) ](https://youtu.be/6KTxVv46w7E)
+
+## Project Demonstration
+[![Watch the video](./images/favicon.png)](https://youtu.be/6KTxVv46w7E)
 
 
 
@@ -88,17 +95,3 @@ Create a `.env` file in the backend directory of the project and add the followi
 - Then follow these videos : (https://youtube.com/playlist?list=PL4HikwTaYE0H7wBxhvQqxYcKOkZ4O3zXh&si=uODePiis-Mdmkp2w)
 
 
-## Contributing
-
-If you would like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository on GitHub.
-2. Clone your forked repository to your local machine.
-3. Create a new branch for your feature or bug fix.
-4. Make your changes and commit them with descriptive commit messages.
-5. Push your changes to your forked repository.
-6. Submit a pull request to the original repository.
-
-Please ensure that your code follows the project's coding conventions and style guidelines. Include tests for any new features or bug fixes, and make sure all existing tests pass before submitting your pull request.
-
-Thank you for contributing to this project!
