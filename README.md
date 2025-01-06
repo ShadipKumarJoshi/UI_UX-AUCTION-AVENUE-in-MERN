@@ -5,7 +5,7 @@ This project is built using the MERN (MongoDB, Express.js, React.js, Node.js) st
 
 ## Demo Video
 
-[![Watch the video](./images/favicon.png)](youtube link)
+[![Watch the video](./images/favicon.png)](https://youtu.be/6KTxVv46w7E)
 [Watch Paper Prototype (Wizard of Oz) ](https://youtu.be/6KTxVv46w7E)
 
 
