@@ -341,8 +341,7 @@ const SingleAuctionDetail = ({ noPadding }) => {
                         </div>
                       </div>
                       <div className="text-white">
-                        Bid Amount : $
-                        {auctionWinnerDetailData?.bidAmount ||
+                        Bid Amount : Rs {auctionWinnerDetailData?.bidAmount ||
                           singleAuction?.winner?.bidAmount}
                       </div>
                     </div>{" "}
