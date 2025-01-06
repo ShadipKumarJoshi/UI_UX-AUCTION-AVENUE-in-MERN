@@ -13,6 +13,7 @@ This project is built using the MERN (MongoDB, Express.js, React.js, Node.js) st
 
 ## Project Demonstration
 [![Watch the video](./images/favicon.png)](https://youtu.be/6KTxVv46w7E)
+
 [Watch the video](https://youtu.be/6KTxVv46w7E)
 
 
