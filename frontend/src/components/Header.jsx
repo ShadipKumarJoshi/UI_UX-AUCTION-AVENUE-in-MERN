@@ -9,6 +9,8 @@ import "react-toastify/dist/ReactToastify.css";
 import socket from "../socket";
 import { logout, reset } from "../store/auth/authSlice";
 import { getNotificationForUser } from "../store/notification/notificationSlice";
+import favicon from "../assets/favicon.png";
+
 const Header = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -53,7 +55,8 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center px-2  sm:px-14 bg-body-bg py-4 border-b border-border-info-color">
       <div className="flex items-center px-1 z-[1]">
-        <Link to="/dashboard" className=" no-underline ">
+        <Link to="/" className=" no-underline flex items-center ">
+        <img src={favicon} alt="favicon" className="w-24 h-24 mr-2" />
           <h1 className="text-3xl font-bold text-white font-Roboto">
             <span className="uppercase text-theme-color">A</span>uction
             <span className="uppercase text-theme-color"> A</span>venue

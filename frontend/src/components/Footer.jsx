@@ -1,6 +1,8 @@
 import  { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import favicon from "../assets/favicon.png";
+
 
 const Footer = () => {
   const { pathname } = useLocation();
@@ -14,9 +16,10 @@ const Footer = () => {
       <div className="lg:w-[80%] mx-auto p-4 md:py-8">
         <div className="sm:flex items-center justify-between">
           <Link
-            to="/dashboard"
+            to="/"
             className="flex items-center mb-4 sm:mb-0 space-x-3 no-underline"
           >
+            <img src={favicon} alt="favicon" className="w-16 h-16 mr-2" />
             <h1 className="text-3xl font-bold text-white font-Roboto">
               <span className="uppercase text-theme-color">A</span>uction
               <span className="uppercase text-theme-color"> A</span>venue
