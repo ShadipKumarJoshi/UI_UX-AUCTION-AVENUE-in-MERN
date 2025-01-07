@@ -41,7 +41,7 @@ const Cart = () => {
     const lineItems = [
       {
         price_data: {
-          currency: "usd",
+          currency: "npr",
           product_data: {
             name: product.name,
             images: [product.image],
