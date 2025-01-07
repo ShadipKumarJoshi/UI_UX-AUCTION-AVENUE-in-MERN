@@ -4,7 +4,7 @@ import errorimg from "../../assets/error.png";
 const ErrorPage = () => {
   return (
     <>
-      <div className="flex flex-col items-center px-10 justify-center gap-10 text-white text-center  h-screen">
+      {/* <div className="flex flex-col items-center px-10 justify-center gap-10 text-white text-center  h-screen">
         <img className="md:w-[60%] md:max-w-[600px]" src={errorimg} alt="" />
 
         <div className="flex flex-col">
@@ -19,7 +19,7 @@ const ErrorPage = () => {
         >
           Go To Home
         </Link>
-      </div>
+      </div> */}
     </>
   );
 };

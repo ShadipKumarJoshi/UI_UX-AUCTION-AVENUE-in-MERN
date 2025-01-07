@@ -57,12 +57,17 @@ const Header = () => {
       <div className="flex items-center px-1 z-[1]">
         <Link to="/" className=" no-underline flex items-center ">
         <img src={favicon} alt="favicon" className="w-24 h-24 mr-2" />
-          <h1 className="text-3xl font-bold text-white font-Roboto">
+          <h1 className="text-2xl font-bold text-white font-Roboto">
             <span className="uppercase text-theme-color">A</span>uction
             <span className="uppercase text-theme-color"> A</span>venue
           </h1>
         </Link>
+        <Link to="/dashboard" className="ml-6">
+           <h1 className="text-2xl font-bold text-white font-Roboto hover:text-color-primary transition-all">Products</h1>
+          
+        </Link>
       </div>
+      
       {/* <div className="hidden sm:block">
         <Link
           to="/"
