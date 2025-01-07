@@ -46,7 +46,7 @@ const Cart = () => {
             name: product.name,
             images: [product.image],
           },
-          unit_amount: product.startingPrice * 100, // because stripe interprets price in cents
+          unit_amount: product.startingPrice * 100, // because stripe interprets price in paisa
         },
         quantity: 1,
       },
