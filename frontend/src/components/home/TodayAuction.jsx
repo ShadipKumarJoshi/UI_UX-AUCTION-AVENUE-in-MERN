@@ -27,6 +27,24 @@ const TodayAuction = () => {
     setTodayAuctions(filteredAuctions);
   }, [liveAuctions]);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const swiperContainer = document.querySelector('swiper-container');
+      if (swiperContainer && swiperContainer.swiper) {
+        const swiper = swiperContainer.swiper;
+        swiper.params.slidesPerGroup = 1; 
+        if (swiper.isEnd) {
+          swiper.appendSlide(swiper.slides[0].outerHTML); 
+          swiper.removeSlide(0); 
+        }
+        swiper.slideNext();
+      }
+    }, 1000); 
+
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <div id="today-auction">
