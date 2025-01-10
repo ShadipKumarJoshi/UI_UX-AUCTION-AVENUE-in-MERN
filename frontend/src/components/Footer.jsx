@@ -36,6 +36,14 @@ const Footer = () => {
             </li>
             <li>
               <Link
+                to="/faq"
+                className=" me-4 md:me-6 text-white no-underline hover:text-theme-color"
+              >
+                FAQ
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/privacy-policy"
                 className=" me-4 md:me-6 text-white no-underline hover:text-theme-color"
               >

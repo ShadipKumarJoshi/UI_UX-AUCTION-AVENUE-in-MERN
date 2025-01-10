@@ -14,6 +14,7 @@ import favicon from "../assets/favicon.png";
 const Header = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [helpMenuOpen, setHelpMenuOpen] = useState(false);
 
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.auth);
@@ -52,6 +53,10 @@ const Header = () => {
     navigate("/login");
   };
 
+  const toggleHelpMenu = () => {
+    setHelpMenuOpen((prev) => !prev);
+  };
+
   return (
     <div className="flex justify-between items-center px-2  sm:px-14 bg-body-bg py-4 border-b border-border-info-color">
       <div className="flex items-center px-1 z-[1]">
@@ -66,7 +71,49 @@ const Header = () => {
            <h1 className="text-2xl font-bold text-white font-Roboto hover:text-color-primary transition-all">Products</h1>
           
         </Link>
+        {/* Help Menu */}
+        <div className="relative ml-6">
+          <button
+            onClick={toggleHelpMenu}
+            className="text-2xl font-bold text-white font-Roboto hover:text-color-primary transition-all"
+          >
+            Help
+          </button>
+          {helpMenuOpen && (
+            <div className="absolute top-full mt-2 bg-body-bg rounded-lg shadow-lg z-50">
+              <Link
+                to="/about-us"
+                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline"
+                onClick={() => setHelpMenuOpen(false)}
+              >
+                About Us
+              </Link>
+              <Link
+                to="/faq"
+                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline"
+                onClick={() => setHelpMenuOpen(false)}
+              >
+                FAQ
+              </Link>
+              <Link
+                to="/privacy-policy"
+                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline"
+                onClick={() => setHelpMenuOpen(false)}
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                to="/contact-us"
+                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline"
+                onClick={() => setHelpMenuOpen(false)}
+              >
+                Contact Us
+              </Link>
+            </div>
+          )}
+        </div>
       </div>
+     
       
       {/* <div className="hidden sm:block">
         <Link

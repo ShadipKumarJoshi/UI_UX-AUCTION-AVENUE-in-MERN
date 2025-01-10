@@ -5,6 +5,7 @@ import Register from "./pages/auth/Register";
 import Login from "./pages/auth/Login";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
+import Faq from "./pages/Faq";
 import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import { ToastContainer } from "react-toastify";
@@ -43,6 +44,7 @@ console.log(user,"...")
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/faq" element={<Faq />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route
             path="/single-auction-detail/:id"
