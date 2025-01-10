@@ -62,7 +62,7 @@ const Header = () => {
       <div className="flex items-center px-1 z-[1]">
         <Link to="/" className=" no-underline flex items-center ">
         <img src={favicon} alt="favicon" className="w-24 h-24 mr-2" />
-          <h1 className="text-2xl font-bold text-white font-Roboto">
+          <h1 className="text-2xl font-bold text-white font-Roboto hover:text-color-primary">
             <span className="uppercase text-theme-color">A</span>uction
             <span className="uppercase text-theme-color"> A</span>venue
           </h1>
@@ -83,28 +83,28 @@ const Header = () => {
             <div className="absolute top-full mt-2 bg-body-bg rounded-lg shadow-lg z-50">
               <Link
                 to="/about-us"
-                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline"
+                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline whitespace-nowrap hover:text-color-primary"
                 onClick={() => setHelpMenuOpen(false)}
               >
                 About Us
               </Link>
               <Link
                 to="/faq"
-                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline"
+                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline whitespace-nowrap hover:text-color-primary"
                 onClick={() => setHelpMenuOpen(false)}
               >
                 FAQ
               </Link>
               <Link
                 to="/privacy-policy"
-                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline"
+                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline whitespace-nowrap hover:text-color-primary"
                 onClick={() => setHelpMenuOpen(false)}
               >
                 Privacy Policy
               </Link>
               <Link
                 to="/contact-us"
-                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline"
+                className="block px-4 py-2 text-white font-Roboto hover:bg-theme-bg-light no-underline whitespace-nowrap hover:text-color-primary"
                 onClick={() => setHelpMenuOpen(false)}
               >
                 Contact Us
@@ -206,7 +206,7 @@ const Header = () => {
           <nav className="pt-2 [&_a]:transition-all [&_a]:duration-100">
             <Link
               to="/user-profile/profile"
-              className="block no-underline text-white font-Roboto text-lg py-2 px-7 hover:bg-theme-bg-light"
+              className="block no-underline text-white font-Roboto text-lg py-2 px-7 hover:bg-theme-bg-light hover:text-color-primary"
               onClick={() => setSidebarOpen(false)}
             >
               Profile
@@ -217,7 +217,7 @@ const Header = () => {
                   ? "/user-profile/manage-items"
                   : "/user-profile/bids-items"
               }
-              className="block no-underline text-white font-Roboto text-lg py-2 px-7 hover:bg-theme-bg-light"
+              className="block no-underline text-white font-Roboto text-lg py-2 px-7 hover:bg-theme-bg-light hover:text-color-primary"
               onClick={() => setSidebarOpen(false)}
             >
               {user.userType === "seller" ? "Manage Items" : "Bids Items"}
@@ -225,7 +225,7 @@ const Header = () => {
 
             <Link
               to="/user-profile/account-settings"
-              className="block no-underline text-white font-Roboto text-lg py-2 px-7 hover:bg-theme-bg-light"
+              className="block no-underline text-white font-Roboto text-lg py-2 px-7 hover:bg-theme-bg-light hover:text-color-primary"
               onClick={() => setSidebarOpen(false)}
             >
               Account Setting
@@ -235,7 +235,7 @@ const Header = () => {
                 logoutHandle();
                 setSidebarOpen(false);
               }}
-              className="block no-underline text-white font-Roboto text-lg py-2 px-7 hover:bg-theme-bg-light"
+              className="block no-underline text-white font-Roboto text-lg py-2 px-7 hover:bg-theme-bg-light hover:text-color-primary"
             >
               Logout
             </Link>
