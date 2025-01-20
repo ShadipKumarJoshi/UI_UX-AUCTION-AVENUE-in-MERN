@@ -6,15 +6,15 @@ This project is built using the MERN (MongoDB, Express.js, React.js, Node.js) st
 ## Video
 
 ## Paper Prototype
-[Watch Paper Prototype (Wizard of Oz) ](https://youtu.be/6KTxVv46w7E)
+[Watch Paper Prototype (Wizard of Oz) ](https://youtu.be/T7Qt8Cuadfc )
 
 ## High Fiedelity Prototype
-[Watch High Fiedelity Prototype (Wizard of Oz) ](https://youtu.be/HWYkpPfSt8A)
+[Watch High Fiedelity Prototype (Wizard of Oz) ](https://youtu.be/vbh60rDJo3g )
 
 ## Project Demonstration
-[![Watch the video](./images/favicon.png)](https://youtu.be/6KTxVv46w7E)
+[![Watch the video](./images/favicon.png)](https://youtu.be/EJKf4UQgONc )
 
-[Watch the video](https://youtu.be/6KTxVv46w7E)
+[Watch the video](https://youtu.be/EJKf4UQgONc )
 
 
 
